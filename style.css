@@ -1,7 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Baloo Tamma 2", sans-serif;
-  background-color: #fff;
+  background-color: #252525;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .navigation {
@@ -24,4 +29,59 @@ body {
 
 .navigation-link:hover {
   color: #f2a900 !important;
+}
+
+.m-heading {
+  font-family: "Roboto slab", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.text-white {
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("backgroundpic.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_row h1 {
+  font-size: 5rem;
+}
+
+.main_row img {
+  width: auto;
+  height: 100vh;
+}
+
+.about {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.btn-outline-warning {
+  border-width: 2px;
+  font-weight: 600;
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-warning:hover{
+  background-color: #ffc107;
+  transform: scale(1.05);
 }
