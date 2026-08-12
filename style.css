@@ -81,7 +81,34 @@ body {
   transition: all 0.3s ease;
 }
 
-.btn-outline-warning:hover{
+.btn-outline-warning:hover {
   background-color: #ffc107;
   transform: scale(1.05);
+}
+
+#projects h1 {
+  font-weight: 900;
+}
+
+.card {
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.card-img-top {
+  padding: 18px;
+  height: 3rem;
+  object-fit: contain;
+}
+
+.card-text {
+  color: #6f7780;
+  font-size: .85rem;
+}
+
+.btn-warning {
+  font-weight: 700;
+  font-size: .8rem;
+  border-radius: 3px;
 }
